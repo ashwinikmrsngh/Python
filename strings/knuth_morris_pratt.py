@@ -81,3 +81,8 @@ if __name__ == "__main__":
     # Test 5)
     pattern = "aabaabaaa"
     assert get_failure_array(pattern) == [0, 1, 0, 1, 2, 3, 4, 5, 2]
+    
+    # Test 6)
+    pattern = "shdkgfds"
+    text = "akshedwkgkfwidlsjer"
+    assert kmp(pattern, text)
